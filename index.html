@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1C | Encriptador</title>
+    <link rel="stylesheet" href="css/mensaje.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img src="img/Logo.png" alt="Logoalura" class="logo">
+            <h1 class="titulo"> Encriptador </h1>
+        </div>
+    </header>
+
+    <main class="mensajes">
+        <section class="seccion_mensaje">
+            <textarea class="textarea1" id="txtnew" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
+            <div class="advertencia">
+                <img src="img/signo-de-exclamacion.png" height="20px" width="30px" alt="exclamacion"><h5 class="informacion">Solo letras minúsculas y sin acento</h5>
+            </div>    
+            <div class="botones">
+                <button id="btnenc" class="encriptar" >Encriptar</button>
+                <button id="btndes" class="desencriptar" >Desencriptar</button>
+            </div>
+            
+        </section>
+
+        <section class="resultados">
+            <div ID="nr" class="contenedorresuelto">
+                <img src="img/polarblanco.jpg" alt="imagenpolar">
+                <h2 class="m">Ningún mensaje fue encontrado</h2>
+                <p class="m">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            
+            <div class="resuelto">
+                <textarea class="textarea2" id="txtresul" cols="30" rows="10"></textarea>
+                <button id="btncop" class="copiar"> Copiar </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="copyright">© Creado por <a href="https://github.com/patpal017">Patricia</a></p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
